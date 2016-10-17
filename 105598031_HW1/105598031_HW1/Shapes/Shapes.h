@@ -2,6 +2,8 @@
 #define SHAPES_H_INCLUDED
 
 #include <vector>
+#include <iostream>
+using namespace std;
 
 class Shape {
 public:
@@ -46,17 +48,45 @@ public:
              double secondPointY, double thirdPointX, double thirdPointY):
             fx(firstPointX),fy(firstPointY),sx(secondPointX),sy(secondPointY),tx(thirdPointX),ty(thirdPointY){}
 
-    double perimeter() {
+
+    bool isTriangle() {
+
         slide1 = sqrt(pow((fx-sx), 2) + pow((fy-sy), 2));
         slide2 = sqrt(pow((sx-tx), 2) + pow((sy-ty), 2));
         slide3 = sqrt(pow((fx-tx), 2) + pow((fy-ty), 2));
-        return slide1 + slide2 + slide3;
+
+
+        if( (slide1+slide2+slide3) <= 2*maxium(slide1, slide2, slide3) ) {
+            cout <<"Points ("<<fx<<","<<fy<<") ("<<sx<<","<<sy<<") ("<<tx<<","<<ty<<")"
+                 <<" can't become a triangle."<<endl;
+            return false;
+        }
+        else {return true;}
+    }
+
+    double perimeter() {
+
+        if (isTriangle()) {
+           return slide1 + slide2 + slide3;
+        }
+        else {
+            return 0;
+        }
     }
 
     double area() {
         double s = perimeter() / 2;
         return sqrt(s*(s-slide1)*(s-slide2)*(s-slide3));
     }
+
+    double maxium(double a, double b, double c) {
+        double maxium = a;
+        if (b>=maxium){maxium = b;}
+        if (c>=maxium) {maxium = c;}
+
+        return maxium;
+    }
+
 private:
     double fx,fy,sx,sy,tx,ty;
     double slide1, slide2, slide3;

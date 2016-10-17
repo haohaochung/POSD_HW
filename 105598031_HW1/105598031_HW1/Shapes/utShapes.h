@@ -21,6 +21,7 @@ TEST(second, Circle) {
 
 TEST(third, Triangle) {
     Triangle tri(0,0,0,1,1,0);
+
     DOUBLES_EQUAL(3.41421, tri.perimeter(), epsilon);
     DOUBLES_EQUAL(0.5, tri.area(), epsilon);
 }
@@ -34,6 +35,7 @@ TEST(fourth, sumOfPerimeter) {
     peris.push_back(&r1);
     peris.push_back(&c1);
     peris.push_back(&t1);
+
 
     DOUBLES_EQUAL(75.41421, sumOfPerimeter(peris), epsilon);
 }
