@@ -185,5 +185,63 @@
 	"MediaVisitor.h"
 	<vector>
 
-1479725401 c:\users\haohao\posd_hw\105598031_hw3\shapes\mediavisitor.h
+1476679833 c:\users\haohao\posd_hw\105598031_hw3\shapes\mediavisitor.h
+
+1477895353 source:c:\users\haohao\posd_hw\105598031_hw4\shapes\main.cpp
+	"..\cppunitlite\TestHarness.h"
+	"utShapes.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw4\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw4\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw4\cppunitlite\simplestring.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw4\cppunitlite\testresult.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw4\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw4\cppunitlite\testregistry.h
+
+1477911483 c:\users\haohao\posd_hw\105598031_hw4\shapes\utshapes.h
+	"..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+
+1477644487 c:\users\haohao\posd_hw\105598031_hw4\shapes\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1479712491 c:\users\haohao\posd_hw\105598031_hw4\shapes\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477891905 c:\users\haohao\posd_hw\105598031_hw4\shapes\mediavisitor.h
+
+1477642937 c:\users\haohao\posd_hw\105598031_hw4\shapes\mediabuilder.h
+
+1477976840 c:\users\haohao\posd_hw\105598031_hw4\shapes\uthw4.h
+	<stack>
+
+1477912360 c:\users\haohao\posd_hw\105598031_hw4\shapes\text.h
 

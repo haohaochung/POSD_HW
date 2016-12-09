@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1480922702 source:c:\users\haohao\posd_hw\105598031_hw6\shapes\src\main.cpp
+	"..\..\cppunitlite\TestHarness.h"
+	"utShapes.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\simplestring.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\testresult.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\testregistry.h
+
+1480916713 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\utshapes.h
+	"..\..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+	"utHw5.h"
+	"utHw6.h"
+
+1479891069 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1481267247 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477912360 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\text.h
+
+1481266694 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\mediavisitor.h
+
+1481006065 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\mediabuilder.h
+
+1477976840 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\uthw4.h
+	<stack>
+
+1481268870 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\uthw5.h
+	"Document.h"
+	"MediaDirector.h"
+
+1481167075 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\document.h
+	<iostream>
+	<fstream>
+	<string>
+	<sys/stat.h>
+	<unistd.h>
+
+1481269879 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\mediadirector.h
+	<sstream>
+
+1480933236 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\uthw6.h
+	<string>
+	<iostream>
+	"Parser.h"
+
+1481270288 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\parser.h
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<vector>
+	<stack>
+	<stdlib.h>
+
+1481006162 source:c:\users\haohao\posd_hw\105598031_hw6\shapes\src\parser.cpp
+

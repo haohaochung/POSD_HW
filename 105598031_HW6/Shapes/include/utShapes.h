@@ -1,12 +1,21 @@
 #ifndef UTSHAPES_H_INCLUDED
 #define UTSHAPES_H_INCLUDED
 
-#include "..\cppunitlite\TestHarness.h"
+#include "..\..\cppunitlite\TestHarness.h"
+
 #include "Shapes.h"
 #include "Media.h"
 #include "MediaVisitor.h"
+#include "MediaBuilder.h"
+#include "Text.h"
+
 #include <vector>
 #include <iostream>
+
+#include "utHw4.h"
+#include "utHw5.h"
+#include "utHw6.h"
+
 
 const double epsilon = 0.0001;
 using namespace std;
@@ -42,28 +51,6 @@ TEST(fourth, sumOfPerimeter) {
     DOUBLES_EQUAL(75.41421, sumOfPerimeter(peris), epsilon);
 }
 
-TEST(shapeMedia, media) {
-    Rectangle r1(0,0,4,2);
-    ShapeMedia media(&r1);
-    DOUBLES_EQUAL(8, media.area(), epsilon);
-    DOUBLES_EQUAL(12, media.perimeter(), epsilon);
-}
-
-TEST(comboMedia, media) {
-    Rectangle r1(0,0,2,2*sqrt(3));
-    Triangle t1(0,0,-1,sqrt(3),0,2*sqrt(3));
-    Triangle t2(2,0,3,sqrt(3),2,2*sqrt(3));
-
-    ShapeMedia media(&r1);
-    ShapeMedia media2(&t1);
-    ShapeMedia media3(&t2);
-    std::vector<Media *> ss{&media};
-    ComboMedia cm(ss);
-    cm.add(&media2);
-    cm.add(&media3);
-    DOUBLES_EQUAL(6*sqrt(3), cm.area(), epsilon);
-    DOUBLES_EQUAL(12+8*sqrt(3), cm.perimeter(), epsilon);
-}
 
 TEST(comboMedia , MediaVisitor){
     Rectangle r1(0,0,2,2*sqrt(3));
@@ -85,12 +72,15 @@ TEST(comboMedia , MediaVisitor){
 
     AreaVisitor av;
     PerimeterVisitor pv;
+    DescriptionVisitor dv;
     comboMedia2.accept(&av);
     comboMedia2.accept(&pv);
+    comboMedia2.accept(&dv);
 
     DOUBLES_EQUAL(6*sqrt(3), av.getArea(), epsilon);
     DOUBLES_EQUAL(12+8*sqrt(3), pv.getPerimeter(), epsilon);
-}
+    //cout<<dv.getDescription();
 
+}
 
 #endif // UTSHAPES_H_INCLUDED
