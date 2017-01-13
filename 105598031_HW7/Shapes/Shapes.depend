@@ -1,0 +1,509 @@
+# depslib dependency file v1.0
+1480922702 source:c:\users\haohao\posd_hw\105598031_hw6\shapes\src\main.cpp
+	"..\..\cppunitlite\TestHarness.h"
+	"utShapes.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\simplestring.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\testresult.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw6\cppunitlite\testregistry.h
+
+1480916713 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\utshapes.h
+	"..\..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+	"utHw5.h"
+	"utHw6.h"
+
+1479891069 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1481267247 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477912360 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\text.h
+
+1481266694 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\mediavisitor.h
+
+1481006065 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\mediabuilder.h
+
+1482826821 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\uthw4.h
+	<stack>
+
+1481268870 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\uthw5.h
+	"Document.h"
+	"MediaDirector.h"
+
+1481167075 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\document.h
+	<iostream>
+	<fstream>
+	<string>
+	<sys/stat.h>
+	<unistd.h>
+
+1481269879 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\mediadirector.h
+	<sstream>
+
+1480933236 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\uthw6.h
+	<string>
+	<iostream>
+	"Parser.h"
+
+1481270288 c:\users\haohao\posd_hw\105598031_hw6\shapes\include\parser.h
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<vector>
+	<stack>
+	<stdlib.h>
+
+1481006162 source:c:\users\haohao\posd_hw\105598031_hw6\shapes\src\parser.cpp
+
+1480922702 source:c:\users\haohao\posd_hw\105598031_hw7-test\shapes\src\main.cpp
+	"..\..\cppunitlite\TestHarness.h"
+	"utShapes.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw7-test\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw7-test\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw7-test\cppunitlite\simplestring.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw7-test\cppunitlite\testresult.h
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw7-test\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709024 c:\users\haohao\posd_hw\105598031_hw7-test\cppunitlite\testregistry.h
+
+1480916713 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\utshapes.h
+	"..\..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+	"utHw5.h"
+	"utHw6.h"
+
+1479891069 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1483001440 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477912360 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\text.h
+
+1481266694 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\mediavisitor.h
+
+1481006065 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\mediabuilder.h
+
+1482826821 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\uthw4.h
+	<stack>
+
+1482900673 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\uthw5.h
+	"Document.h"
+	"MediaDirector.h"
+
+1481167075 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\document.h
+	<iostream>
+	<fstream>
+	<string>
+	<sys/stat.h>
+	<unistd.h>
+
+1481269879 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\mediadirector.h
+	<sstream>
+
+1483009004 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\uthw6.h
+	<string>
+	<iostream>
+	"Parser.h"
+	"CommandManager.h"
+	"Command.h"
+
+1483007935 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\parser.h
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<vector>
+	<stack>
+	<stdlib.h>
+	"CommandManager.h"
+
+1483009649 source:c:\users\haohao\posd_hw\105598031_hw7-test\shapes\src\source.main.cpp
+	"utShapes.h"
+	"Parser.h"
+	<conio.h>
+
+1483004269 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\command.h
+
+1482919032 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\commandmanager.h
+	"Command.h"
+
+1482901666 c:\users\haohao\posd_hw\105598031_hw7-test\shapes\include\conio.h
+	<_mingw.h>
+
+1483009650 source:c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\src\source.main.cpp
+	"utShapes.h"
+	"Parser.h"
+	<conio.h>
+
+1480916714 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\utshapes.h
+	"..\..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+	"utHw5.h"
+	"utHw6.h"
+
+1474709026 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709026 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709026 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\simplestring.h
+
+1474709026 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\testresult.h
+
+1474709026 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709026 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\testregistry.h
+
+1479891070 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1483025641 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477912362 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\text.h
+
+1481266696 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\mediavisitor.h
+
+1481006066 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\mediabuilder.h
+
+1482826822 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw4.h
+	<stack>
+
+1482900674 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw5.h
+	"Document.h"
+	"MediaDirector.h"
+
+1481167076 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\document.h
+	<iostream>
+	<fstream>
+	<string>
+	<sys/stat.h>
+	<unistd.h>
+
+1481269880 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\mediadirector.h
+	<sstream>
+
+1483009726 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw6.h
+	<string>
+	<iostream>
+	"Parser.h"
+	"CommandManager.h"
+	"Command.h"
+
+1483027272 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\parser.h
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<stack>
+	<stdlib.h>
+	"CommandManager.h"
+
+1483009696 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\commandmanager.h
+	"Command.h"
+
+1483024725 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\command.h
+
+1482901668 c:\users\user\desktop\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\conio.h
+	<_mingw.h>
+
+1483077664 source:c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\src\source.main.cpp
+	"utShapes.h"
+	"Parser.h"
+	<conio.h>
+
+1483085093 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\utshapes.h
+	"..\..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+	"utHw5.h"
+	"utHw6.h"
+	"utHw7.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\simplestring.h
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\testresult.h
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\cppunitlite\testregistry.h
+
+1479891070 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1483071753 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477912362 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\text.h
+
+1481266696 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\mediavisitor.h
+
+1481006066 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\mediabuilder.h
+
+1482826822 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw4.h
+	<stack>
+
+1482900674 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw5.h
+	"Document.h"
+	"MediaDirector.h"
+
+1481167076 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\document.h
+	<iostream>
+	<fstream>
+	<string>
+	<sys/stat.h>
+	<unistd.h>
+
+1481269880 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\mediadirector.h
+	<sstream>
+
+1483085048 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw6.h
+
+1483076726 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\parser.h
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<stack>
+	<stdlib.h>
+	"CommandManager.h"
+
+1483084931 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\commandmanager.h
+	"Command.h"
+
+1483081738 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\command.h
+
+1482901668 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\conio.h
+	<_mingw.h>
+
+1480922704 source:c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\src\main.cpp
+	"..\..\cppunitlite\TestHarness.h"
+	"utShapes.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1483086642 c:\users\haohao\posd_hw\105598031_hw7-test-2\105598031_hw7-test (2)\105598031_hw7-test\shapes\include\uthw7.h
+	<string>
+	<iostream>
+	"Parser.h"
+	"CommandManager.h"
+	"Command.h"
+
+1483077664 source:c:\users\haohao\posd_hw\105598031_hw7\shapes\src\source.main.cpp
+	"utShapes.h"
+	"Parser.h"
+	<conio.h>
+
+1483085093 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\utshapes.h
+	"..\..\cppunitlite\TestHarness.h"
+	"Shapes.h"
+	"Media.h"
+	"MediaVisitor.h"
+	"MediaBuilder.h"
+	"Text.h"
+	<vector>
+	<iostream>
+	"utHw4.h"
+	"utHw5.h"
+	"utHw6.h"
+	"utHw7.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7\cppunitlite\testharness.h
+	"Test.h"
+	"TestResult.h"
+	"Failure.h"
+	"TestRegistry.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7\cppunitlite\test.h
+	<cmath>
+	"SimpleString.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7\cppunitlite\simplestring.h
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7\cppunitlite\testresult.h
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7\cppunitlite\failure.h
+	"SimpleString.h"
+
+1474709026 c:\users\haohao\posd_hw\105598031_hw7\cppunitlite\testregistry.h
+
+1479891070 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\shapes.h
+	<vector>
+	<iostream>
+	<algorithm>
+	<sstream>
+
+1483518405 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\media.h
+	"Shapes.h"
+	"Text.h"
+	"MediaVisitor.h"
+	<vector>
+
+1477912362 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\text.h
+
+1481266696 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\mediavisitor.h
+
+1481006066 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\mediabuilder.h
+
+1482826822 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\uthw4.h
+	<stack>
+
+1482900674 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\uthw5.h
+	"Document.h"
+	"MediaDirector.h"
+
+1481167076 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\document.h
+	<iostream>
+	<fstream>
+	<string>
+	<sys/stat.h>
+	<unistd.h>
+
+1483585564 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\mediadirector.h
+	<sstream>
+
+1483085048 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\uthw6.h
+
+1483585264 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\uthw7.h
+	<string>
+	<iostream>
+	"Parser.h"
+	"CommandManager.h"
+	"Command.h"
+
+1483456929 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\parser.h
+	<string>
+	<string.h>
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<stack>
+	<stdlib.h>
+	"CommandManager.h"
+
+1483501081 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\commandmanager.h
+	"Command.h"
+
+1483583617 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\command.h
+
+1482901668 c:\users\haohao\posd_hw\105598031_hw7\shapes\include\conio.h
+	<_mingw.h>
+
+1480922704 source:c:\users\haohao\posd_hw\105598031_hw7\shapes\src\main.cpp
+	"..\..\cppunitlite\TestHarness.h"
+	"utShapes.h"
+	<iostream>
+	<sstream>
+	<string>
+
